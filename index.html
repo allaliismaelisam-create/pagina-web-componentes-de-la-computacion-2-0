@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Componentes de una computadora</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e6;
+    text-align: center;
+    color: #333;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #c19a6b;
+    height: 25vh;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 10px;
+}
+
+header p {
+    font-size: 19px;
+}
+
+/* PORTADA */
+
+.portada {
+    padding: 35px 20px;
+}
+
+.portada img {
+    width: 85%;
+    max-width: 1000px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
+.portada h2 {
+    color: #80552e;
+    font-size: 30px;
+}
+
+.portada p {
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+/* COMPONENTES */
+
+.componente {
+    max-width: 850px;
+    margin: 45px auto;
+    padding: 25px;
+    background-color: #fffaf0;
+    border-radius: 12px;
+}
+
+.componente h2 {
+    color: #80552e;
+    font-size: 27px;
+}
+
+.componente img {
+    width: 320px;
+    max-width: 90%;
+    height: 230px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+}
+
+.componente p {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #c19a6b;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 17px;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    .portada img {
+        height: 230px;
+        width: 95%;
+    }
+
+    .componente {
+        margin: 25px 12px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ENCABEZADO -->
+
+<header>
+
+    <h1>COMPONENTES DE UNA COMPUTADORA</h1>
+
+    <p>Conoce las partes que hacen funcionar un ordenador</p>
+
+</header>
+
+
+<!-- IMAGEN DE PORTADA -->
+
+<section class="portada">
+
+    <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=1200"
+    alt="Ordenador y componentes informáticos">
+
+    <h2>Descubre el interior de un ordenador</h2>
+
+    <p>
+        Aprende cuáles son sus componentes principales,
+        para qué sirven y cómo funcionan juntos.
+    </p>
+
+</section>
+
+
+<!-- PROCESADOR -->
+
+<section class="componente">
+
+    <h2>1. Procesador (CPU)</h2>
+
+    <img src="https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=500"
+    alt="Procesador">
+
+    <p>
+        El procesador, también conocido como CPU, es uno de los componentes
+        más importantes de una computadora. Se encarga de interpretar y
+        ejecutar las instrucciones de los programas.
+    </p>
+
+    <p>
+        Su velocidad se mide en GHz. Cuanto más potente sea el procesador,
+        más rápido podrá realizar determinadas tareas. Es fundamental
+        para jugar, estudiar, trabajar y utilizar aplicaciones.
+    </p>
+
+</section>
+
+
+<!-- MEMORIA RAM -->
+
+<section class="componente">
+
+    <h2>2. Memoria RAM</h2>
+
+    <img src="https://images.unsplash.com/photo-1562976540-1502c2145186?w=500"
+    alt="Memoria RAM">
+
+    <p>
+        La memoria RAM es la encargada de guardar temporalmente los datos
+        que necesita el ordenador mientras está encendido.
+    </p>
+
+    <p>
+        Permite tener varios programas abiertos al mismo tiempo.
+        Cuanta más memoria RAM tenga un ordenador, mayor capacidad
+        tendrá para trabajar con varias aplicaciones simultáneamente.
+    </p>
+
+</section>
+
+
+<!-- PLACA BASE -->
+
+<section class="componente">
+
+    <h2>3. Placa base</h2>
+
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500"
+    alt="Placa base">
+
+    <p>
+        La placa base es el circuito principal del ordenador.
+        En ella se conectan el procesador, la memoria RAM,
+        la tarjeta gráfica y otros componentes.
+    </p>
+
+    <p>
+        Su función principal es permitir que todas las piezas
+        se comuniquen entre sí y funcionen correctamente.
+    </p>
+
+</section>
+
+
+<!-- DISCO DURO -->
+
+<section class="componente">
+
+    <h2>4. Disco duro y SSD</h2>
+
+    <img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500"
+    alt="Almacenamiento">
+
+    <p>
+        El disco duro y las unidades SSD sirven para almacenar
+        información de forma permanente, incluso cuando apagamos
+        el ordenador.
+    </p>
+
+    <p>
+        En ellos guardamos fotografías, vídeos, documentos,
+        videojuegos y el sistema operativo. Los SSD suelen ser
+        mucho más rápidos que los discos duros tradicionales.
+    </p>
+
+</section>
+
+
+<!-- TARJETA GRÁFICA -->
+
+<section class="componente">
+
+    <h2>5. Tarjeta gráfica (GPU)</h2>
+
+    <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500"
+    alt="Tarjeta gráfica">
+
+    <p>
+        La tarjeta gráfica se encarga de procesar y generar
+        las imágenes que vemos en la pantalla.
+    </p>
+
+    <p>
+        Es especialmente importante para videojuegos,
+        edición de vídeos, diseño gráfico y aplicaciones
+        que necesitan representar imágenes en alta calidad.
+    </p>
+
+</section>
+
+
+<!-- FUENTE DE ALIMENTACIÓN -->
+
+<section class="componente">
+
+    <h2>6. Fuente de alimentación</h2>
+
+    <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=500"
+    alt="Fuente de alimentación">
+
+    <p>
+        La fuente de alimentación transforma la electricidad
+        de la corriente en la energía que necesitan los
+        diferentes componentes del ordenador.
+    </p>
+
+    <p>
+        Es imprescindible porque distribuye la energía
+        necesaria para que todo el equipo funcione correctamente.
+    </p>
+
+</section>
+
+
+<!-- REFRIGERACIÓN -->
+
+<section class="componente">
+
+    <h2>7. Sistema de refrigeración</h2>
+
+    <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=500"
+    alt="Refrigeración de ordenador">
+
+    <p>
+        El sistema de refrigeración evita que los componentes
+        alcancen temperaturas demasiado elevadas.
+    </p>
+
+    <p>
+        Puede utilizar ventiladores o refrigeración líquida.
+        Es importante para mantener el rendimiento y proteger
+        las piezas del ordenador.
+    </p>
+
+</section>
+
+
+<!-- PIE DE PÁGINA -->
+
+<footer>
+
+    Ismael y Joel 2B
+
+</footer>
+
+</body>
+</html>
